@@ -1,0 +1,37 @@
+{
+  "features" : [ {
+    "title" : "Яндекс маркет",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "1b52e669e3fb78a2",
+      "title" : "1.Телевизоры",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "f71b2528b5fb3e66",
+        "name" : "1.Телевизоры",
+        "title" : "1.Телевизоры",
+        "time" : {
+          "start" : 1517771635974,
+          "stop" : 1517771753062,
+          "duration" : 117088
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

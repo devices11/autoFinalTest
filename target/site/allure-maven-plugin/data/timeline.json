@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "DESKTOP-J832LA6",
+    "threads" : [ {
+      "title" : "7196@DESKTOP-J832LA6.main(1)",
+      "testCases" : [ {
+        "uid" : "f71b2528b5fb3e66",
+        "name" : "1.Телевизоры",
+        "title" : "1.Телевизоры",
+        "time" : {
+          "start" : 1517771635974,
+          "stop" : 1517771753062,
+          "duration" : 117088
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

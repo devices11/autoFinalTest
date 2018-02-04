@@ -1,0 +1,455 @@
+{
+  "uid" : "f71b2528b5fb3e66",
+  "name" : "1.Телевизоры",
+  "title" : "1.Телевизоры",
+  "time" : {
+    "start" : 1517771635974,
+    "stop" : 1517771753062,
+    "duration" : 117088
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 26
+  },
+  "failure" : {
+    "message" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[1][contains(@class,'n-snippet-card2__title')]\"}\n  (Session info: chrome=64.0.3282.119)\n  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'DESKTOP-J832LA6', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Users\\Dev_ice\\AppData\\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.119, webStorageEnabled: true}\nSession ID: af3c71571642985b29c89df2ac2454e1\n*** Element info: {Using=xpath, value=//div[1][contains(@class,'n-snippet-card2__title')]}",
+    "stackTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[1][contains(@class,'n-snippet-card2__title')]\"}\n  (Session info: chrome=64.0.3282.119)\n  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'DESKTOP-J832LA6', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Users\\Dev_ice\\AppData\\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.119, webStorageEnabled: true}\nSession ID: af3c71571642985b29c89df2ac2454e1\n*** Element info: {Using=xpath, value=//div[1][contains(@class,'n-snippet-card2__title')]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.getText(Unknown Source)\n\tat pages.TvFilterPage.saveFirstElement(TvFilterPage.java:38)\n\tat steps.TvFilterSteps.checkSearch(TvFilterSteps.java:33)\n\tat steps.ScenarioSteps.checkSearch(ScenarioSteps.java:70)\n\tat ✽.Тогда найденный элемент соответствует поиску(маркет.feature:23)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "289625d426a49655",
+    "name" : "Яндекс маркет",
+    "title" : "Яндекс маркет"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Маркет\"",
+    "title" : "Когда выбран пункт меню \"Маркет\"",
+    "time" : {
+      "start" : 1517771651783,
+      "stop" : 1517771657839,
+      "duration" : 6056
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectMenu[Маркет]",
+      "title" : "Выбран пункт меню Маркет",
+      "time" : {
+        "start" : 1517771653107,
+        "stop" : 1517771657832,
+        "duration" : 4725
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбрана вид товара \"Электроника\"",
+    "title" : "Когда выбрана вид товара \"Электроника\"",
+    "time" : {
+      "start" : 1517771657841,
+      "stop" : 1517771662637,
+      "duration" : 4796
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectType[Электроника]",
+      "title" : "Выбрана категория товаров Электроника",
+      "time" : {
+        "start" : 1517771657844,
+        "stop" : 1517771662636,
+        "duration" : 4792
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбрана категория товаров \"Телевизоры\"",
+    "title" : "Тогда выбрана категория товаров \"Телевизоры\"",
+    "time" : {
+      "start" : 1517771662638,
+      "stop" : 1517771669915,
+      "duration" : 7277
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectCategory[Телевизоры]",
+      "title" : "Выбрана категория товаров Телевизоры",
+      "time" : {
+        "start" : 1517771662641,
+        "stop" : 1517771669914,
+        "duration" : 7273
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выполнено нажатие на Перейти ко всем фильтрам",
+    "title" : "Тогда выполнено нажатие на Перейти ко всем фильтрам",
+    "time" : {
+      "start" : 1517771669915,
+      "stop" : 1517771674863,
+      "duration" : 4948
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectGoToFilter",
+      "title" : "Выбран Перейти ко всем фильтрам",
+      "time" : {
+        "start" : 1517771669919,
+        "stop" : 1517771674863,
+        "duration" : 4944
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1517771674865,
+      "stop" : 1517771675676,
+      "duration" : 811
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFillField[Цена от, 20000]",
+      "title" : "Поле Цена от заполняется значением 20000",
+      "time" : {
+        "start" : 1517771674877,
+        "stop" : 1517771675675,
+        "duration" : 798
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран производитель \"Samsung\"",
+    "title" : "Когда выбран производитель \"Samsung\"",
+    "time" : {
+      "start" : 1517771675676,
+      "stop" : 1517771676149,
+      "duration" : 473
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectProducer[Samsung]",
+      "title" : "Выбран производитель Samsung",
+      "time" : {
+        "start" : 1517771675678,
+        "stop" : 1517771676148,
+        "duration" : 470
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран производитель \"LG\"",
+    "title" : "Когда выбран производитель \"LG\"",
+    "time" : {
+      "start" : 1517771676149,
+      "stop" : 1517771676567,
+      "duration" : 418
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectProducer[LG]",
+      "title" : "Выбран производитель LG",
+      "time" : {
+        "start" : 1517771676151,
+        "stop" : 1517771676566,
+        "duration" : 415
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выполнено нажатие на Показать подходящие",
+    "title" : "Тогда выполнено нажатие на Показать подходящие",
+    "time" : {
+      "start" : 1517771676567,
+      "stop" : 1517771683012,
+      "duration" : 6445
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectButton",
+      "title" : "Нажата кнопка Показать подходящие",
+      "time" : {
+        "start" : 1517771676569,
+        "stop" : 1517771683012,
+        "duration" : 6443
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда количество товара на странице 12",
+    "title" : "Когда количество товара на странице 12",
+    "time" : {
+      "start" : 1517771683013,
+      "stop" : 1517771683106,
+      "duration" : 93
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkCountGoods",
+      "title" : "Количество товаров на странице 12",
+      "time" : {
+        "start" : 1517771683014,
+        "stop" : 1517771683106,
+        "duration" : 92
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда сохранено название первого товара в списке",
+    "title" : "Когда сохранено название первого товара в списке",
+    "time" : {
+      "start" : 1517771683107,
+      "stop" : 1517771683257,
+      "duration" : 150
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "saveFirstElement",
+      "title" : "Сохранено название первого товара в списке",
+      "time" : {
+        "start" : 1517771683109,
+        "stop" : 1517771683257,
+        "duration" : 148
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда введено значение сохраненного элемента в сторку поиска",
+    "title" : "Когда введено значение сохраненного элемента в сторку поиска",
+    "time" : {
+      "start" : 1517771683258,
+      "stop" : 1517771685223,
+      "duration" : 1965
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "searchFirstElement",
+      "title" : "Ввод в строку поиска значения сохраненного элемента",
+      "time" : {
+        "start" : 1517771683260,
+        "stop" : 1517771685222,
+        "duration" : 1962
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда нажата кнопка Найти",
+    "title" : "Тогда нажата кнопка Найти",
+    "time" : {
+      "start" : 1517771685223,
+      "stop" : 1517771685687,
+      "duration" : 464
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "buttonSearch",
+      "title" : "Нажата кнопка Найти",
+      "time" : {
+        "start" : 1517771685225,
+        "stop" : 1517771685687,
+        "duration" : 462
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда найденный элемент соответствует поиску",
+    "title" : "Тогда найденный элемент соответствует поиску",
+    "time" : {
+      "start" : 1517771685687,
+      "stop" : 1517771753059,
+      "duration" : 67372
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "BROKEN",
+    "attachments" : [ {
+      "title" : "Скриншот в момент ошибки",
+      "source" : "79e8082b-74aa-41ba-94ae-b4422aece816-attachment.png",
+      "type" : "image/png",
+      "size" : 147540,
+      "uid" : "bda30718e250bce9"
+    } ],
+    "steps" : [ {
+      "name" : "checkSearch",
+      "title" : "Проверка найденного элемента запросу",
+      "time" : {
+        "start" : 1517771685689,
+        "stop" : 1517771752423,
+        "duration" : 66734
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "BROKEN",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "1.Телевизоры"
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс маркет"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-J832LA6"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс маркет"
+  }, {
+    "name" : "thread",
+    "value" : "7196@DESKTOP-J832LA6.main(1)"
+  } ],
+  "parameters" : [ ]
+}
