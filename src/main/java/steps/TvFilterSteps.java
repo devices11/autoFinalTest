@@ -3,6 +3,8 @@ package steps;
 import pages.TvFilterPage;
 import ru.yandex.qatools.allure.annotations.Step;
 
+import java.util.concurrent.TimeUnit;
+
 import static org.junit.Assert.assertTrue;
 
 public class TvFilterSteps {
@@ -26,11 +28,13 @@ public class TvFilterSteps {
     public void buttonSearch () {
         new TvFilterPage().buttonSearch.click();
     }
-//    @Step("Проверка найденного элемента запросу")
-//    public void checkSearch(){
-//        String actualTitle = new TvFilterPage().titleGoods.getText();
-//        assertTrue(String.format("Заголовок равен [%s]. Ожидалось - [%s]",
-//                actualTitle, new TvFilterPage().saveFirstElement()), actualTitle.contains(new TvFilterPage().saveFirstElement()));
-//    }
+
+    @Step("Проверка найденного элемента запросу")
+    public void checkSearch(){
+        String actualTitle = new TvFilterPage().titleGoods.getText();
+        String searchText = new TvFilterPage().header_search.getText();
+        assertTrue(String.format("Заголовок равен [%s]. Ожидалось - [%s]",
+                actualTitle, searchText), actualTitle.contains(searchText));
+    }
 
 }

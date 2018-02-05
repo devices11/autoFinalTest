@@ -33,9 +33,7 @@ public class TransitToMarket {
     }
 
     public void selectCategory(String category){
-        categoryGoods.findElement(By.xpath("./div//a[contains(text(),'"+category+"')]")).click();
+        categoryGoods.findElement(By.xpath("./div//a[1][contains(text(),'"+category+"')]")).click();
     }
-
-
 
 }

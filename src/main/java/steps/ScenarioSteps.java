@@ -60,6 +60,7 @@ public class ScenarioSteps {
     public void searchFirstElement(){
         tvFilterSteps.searchFirstElement();
     }
+
     @Then("^нажата кнопка Найти$")
     public void buttonSearch (){
         tvFilterSteps.buttonSearch();

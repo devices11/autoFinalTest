@@ -49,9 +49,9 @@ public class BasePageSteps {
         driver.manage().window().maximize();
     }
 
-//    @After
-//    public void afterTest(){
-//        driver.quit();
-//    }
+    @After
+    public void afterTest(){
+        driver.quit();
+    }
 
 }
